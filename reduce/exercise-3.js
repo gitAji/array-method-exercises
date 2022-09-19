@@ -39,6 +39,6 @@ const teams = [
   },
 ];
 
-const winningTeams = null; // Replace null and add .reduce code here
+const winningTeams = teams.filter(team=> team.isWinner ?1 ); // Replace null and add .reduce code here
 
 console.log(winningTeams);
